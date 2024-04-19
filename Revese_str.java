@@ -34,8 +34,15 @@ public class Revese_str {
         // initially temp is declared as zero
         int temp=0;
 
-        //
+        //create an empty string
         String str2=" ";
+
+        // Traversing the string
+        for(int i=0;i>=str2.length()-1;i--){
+            if(str.charAt(i)!=" "){
+                Str2=str2
+            }
+        }
 
 
     }
